@@ -3,19 +3,19 @@ import ProductGallery from './productGallery'
 import ProductSizes from './productSizes'
 
 interface Props {
-  title: string;
-  colors: string[];
-  images: ({
+  title?: string;
+  colors?: string[];
+  images?: ({
     src: string;
     alt: string;
   })[];
-  full_description: string;
-  price: number;
-  highlights: string[];
-  details: string;
-  rating: number;
-  reviews: number;
-  sizes: Map<string,number>
+  full_description?: string;
+  price?: number;
+  highlights?: string[];
+  details?: string;
+  rating?: number;
+  reviews?: number;
+  sizes?: any
 }
 
 export default function ProductOverview({

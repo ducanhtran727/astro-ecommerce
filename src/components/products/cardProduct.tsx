@@ -20,7 +20,7 @@ export default function CardProduct({
   color,
   colors,
   position
-}: Props) {
+}: any) {
 
   const classList = "card-body " + "text-" + position;
 

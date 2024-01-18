@@ -5,17 +5,17 @@ import ProductAccordion from './productAccordion';
 import ProductImages from './productImages';
 
 interface Props {
-  title: string;
-  price: number;
-  images: ({
+  title?: string;
+  price?: number;
+  images?: ({
     src: string;
     alt: string;
   })[];
-  colors: string[];
-  rating: number;
-  reviews: number;
-  full_description: string;
-  data: Map<string,string>
+  colors?: string[];
+  rating?: number;
+  reviews?: number;
+  full_description?: string;
+  data?: any
 }
 
 export default function productOverviewGallery({

@@ -32,7 +32,7 @@ interface Props {
 export default function OrderSummaries({
   order,
   products
-}: Props) {
+}: any) {
 
   let orderCards = [];
 

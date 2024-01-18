@@ -1,9 +1,9 @@
 interface Props {
   thumb_src: string;
   title: string;
-  collection: string;
-  classList: string;
-  cta: string;
+  collection?: string;
+  classList?: string;
+  cta?: string;
 }
 
 

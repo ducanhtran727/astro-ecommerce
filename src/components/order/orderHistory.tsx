@@ -31,7 +31,7 @@ interface Props {
 export default function OrderHistory({
   orders,
   products
-}: Props) {
+}: any) {
 
   let orderHistoryCards = [];
 

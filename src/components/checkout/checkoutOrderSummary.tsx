@@ -23,7 +23,7 @@ interface Props {
 export default function CheckoutSummary({
  products,
  textColor
-}: Props) {
+}: any) {
 
   let subtotalCheckout = 0;
   products.map(product => 

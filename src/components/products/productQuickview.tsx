@@ -6,14 +6,14 @@ import Reviews from '../reviews/reviewSimple'
 
 
 interface Props {
-  thumb_src: string;
-  title: string;
-  price: number;
-  colors: string[];
-  rating: number;
-  reviews: number;
-  sizes: Map<string,number>;
-  images: ({
+  thumb_src?: string;
+  title?: string;
+  price?: number;
+  colors?: string[];
+  rating?: number;
+  reviews?: number;
+  sizes?: any;
+  images?: ({
     src: string;
     alt: string;
   })[];

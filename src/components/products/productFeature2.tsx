@@ -8,7 +8,7 @@ export default function ProductOverview({
   title,
   full_description,
   data,
-}: Props) {
+}: any) {
 
   return (
     <>
